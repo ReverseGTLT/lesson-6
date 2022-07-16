@@ -3,15 +3,15 @@
 }
 
 body {
-    margin: 0.5em;
-    font-size: 10px;
+    margin: 1em;
+    font-size: 5px;
     background-color: #f4eef5;
 }
 
 .contchild {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5em;
+    gap: 1em;
 }
 
 .float {
@@ -21,7 +21,7 @@ body {
     border-radius: 20px;
     background-color: #e2cfe5;
     transition: 0.3s;
-    padding: 3px;
+    padding: 15px;
 }
 
 .float:hover {
@@ -32,14 +32,14 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 0.5em;
-    margin-bottom: 0.5em;
+    gap: 1em;
+    margin-bottom: 1em;
 }
 
 .main {
     min-height: calc(100vh - 200px - 20px);
     border: 2px solid black;
-    padding: 0.5em;
+    padding: 1em;
     flex-grow: 1;
     background-color: #f4eef5;
     flex-shrink: 1;
@@ -69,13 +69,7 @@ header, footer {
 }
 
 header {
-    margin-bottom: 0.5em;
-}
-
-p {
-    text-align: center;
-    margin: 0;
-    padding-top: 50px;
+    margin-bottom: 1em;
 }
 
 .title {
@@ -110,8 +104,8 @@ u {
 }
 
 img {
-    max-width: 30px;
-    height: 20%;
+    max-width: 50px;
+    height: 40%;
     display: block;
     margin: 0 auto;
 }
